@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1002px" preserveAspectRatio="none" style="width:1480px;height:1002px;background:#FFFFFF;" version="1.1" viewBox="0 0 1480 1002" width="1480px" zoomAndPan="magnify"><defs/><g><!--MD5=[e3f9b16d282621418dca775daaa49e12]
+class arhangelskaya_oblast--><g id="elem_arhangelskaya_oblast"><rect codeLine="5" fill="#FFFFFF" height="163.1025" id="arhangelskaya_oblast" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="337" x="12" y="88.5"/><ellipse cx="100.75" cy="102.5" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M103.5156,104.0313 L105.9063,104.7813 Q105.3594,106.7656 104.0781,107.7344 Q102.8125,108.7031 100.8438,108.7031 Q98.4219,108.7031 96.8594,107.0469 Q95.3125,105.3906 95.3125,102.5156 Q95.3125,99.4844 96.875,97.8125 Q98.4375,96.125 101,96.125 Q103.2344,96.125 104.625,97.4375 Q105.4531,98.2188 105.875,99.6875 L103.4375,100.2656 Q103.2188,99.3125 102.5313,98.7656 Q101.8594,98.2188 100.875,98.2188 Q99.5156,98.2188 98.6719,99.2031 Q97.8438,100.1719 97.8438,102.3438 Q97.8438,104.6406 98.6719,105.625 Q99.5,106.6094 100.8281,106.6094 Q101.8125,106.6094 102.5156,105.9844 Q103.2188,105.3594 103.5156,104.0313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="152" x="118.25" y="108.0679">arhangelskaya_oblast</text><line style="stroke:#000000;stroke-width:1.0;" x1="13" x2="348" y1="116.5" y2="116.5"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="18" y="134.5752">region: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="18" y="151.5898">id_full: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="90" x="18" y="168.6045">level: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94" x="18" y="185.6191">type: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="18" y="202.6338">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="111" x="18" y="219.6484">ogc_fid: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="13" x2="348" y1="226.5879" y2="226.5879"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="325" x="18" y="244.6631">wkb_geometry: geometry(multipolygon,3857)</text></g><!--MD5=[a6fe717261a1e5b92399f4608c863e54]
+class auto_foot_graph_arh_obl--><g id="elem_auto_foot_graph_arh_obl"><rect codeLine="14" fill="#FFFFFF" height="316.2344" id="auto_foot_graph_arh_obl" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="345" x="384" y="12"/><ellipse cx="461.75" cy="26" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M464.5156,27.5313 L466.9063,28.2813 Q466.3594,30.2656 465.0781,31.2344 Q463.8125,32.2031 461.8438,32.2031 Q459.4219,32.2031 457.8594,30.5469 Q456.3125,28.8906 456.3125,26.0156 Q456.3125,22.9844 457.875,21.3125 Q459.4375,19.625 462,19.625 Q464.2344,19.625 465.625,20.9375 Q466.4531,21.7188 466.875,23.1875 L464.4375,23.7656 Q464.2188,22.8125 463.5313,22.2656 Q462.8594,21.7188 461.875,21.7188 Q460.5156,21.7188 459.6719,22.7031 Q458.8438,23.6719 458.8438,25.8438 Q458.8438,28.1406 459.6719,29.125 Q460.5,30.1094 461.8281,30.1094 Q462.8125,30.1094 463.5156,29.4844 Q464.2188,28.8594 464.5156,27.5313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="182" x="479.25" y="31.5679">auto_foot_graph_arh_obl</text><line style="stroke:#000000;stroke-width:1.0;" x1="385" x2="728" y1="40" y2="40"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="116" x="390" y="58.0752">objectid: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="102" x="390" y="75.0898">fclass: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="390" y="92.1045">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="390" y="109.1191">ref: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="116" x="390" y="126.1338">oneway: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="132" x="390" y="143.1484">maxspeed: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="158" x="390" y="160.1631">layer: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="390" y="177.1777">bridge: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="390" y="194.1924">tunnel: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="95" x="390" y="211.207">auto: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="92" x="390" y="228.2217">foot: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="174" x="390" y="245.2363">meters: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="181" x="390" y="262.251">minutes: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="219" x="390" y="279.2656">minutes_foot: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="111" x="390" y="296.2803">ogc_fid: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="385" x2="728" y1="303.2197" y2="303.2197"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="333" x="390" y="321.2949">wkb_geometry: geometry(multilinestring,3857)</text></g><!--MD5=[58f4852b04292b16919f28e8f9bc8d1a]
+class base_obl_people--><g id="elem_base_obl_people"><rect codeLine="32" fill="#FFFFFF" height="197.1318" id="base_obl_people" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="337" x="764" y="71.5"/><ellipse cx="869.75" cy="85.5" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M872.5156,87.0313 L874.9063,87.7813 Q874.3594,89.7656 873.0781,90.7344 Q871.8125,91.7031 869.8438,91.7031 Q867.4219,91.7031 865.8594,90.0469 Q864.3125,88.3906 864.3125,85.5156 Q864.3125,82.4844 865.875,80.8125 Q867.4375,79.125 870,79.125 Q872.2344,79.125 873.625,80.4375 Q874.4531,81.2188 874.875,82.6875 L872.4375,83.2656 Q872.2188,82.3125 871.5313,81.7656 Q870.8594,81.2188 869.875,81.2188 Q868.5156,81.2188 867.6719,82.2031 Q866.8438,83.1719 866.8438,85.3438 Q866.8438,87.6406 867.6719,88.625 Q868.5,89.6094 869.8281,89.6094 Q870.8125,89.6094 871.5156,88.9844 Q872.2188,88.3594 872.5156,87.0313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="118" x="887.25" y="91.0679">base_obl_people</text><line style="stroke:#000000;stroke-width:1.0;" x1="765" x2="1100" y1="99.5" y2="99.5"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="770" y="117.5752">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94" x="770" y="134.5898">type: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="770" y="151.6045">gicity: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="104" x="770" y="168.6191">okrug: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="111" x="770" y="185.6338">district: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="103" x="770" y="202.6484">okato: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="108" x="770" y="219.6631">oktmo: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="770" y="236.6777">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="765" x2="1100" y1="243.6172" y2="243.6172"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="325" x="770" y="261.6924">wkb_geometry: geometry(multipolygon,3857)</text></g><!--MD5=[a47b9c3845580666e2f5f2dda1fe4fc2]
+class base_obl_people_3000--><g id="elem_base_obl_people_3000"><rect codeLine="43" fill="#FFFFFF" height="214.1465" id="base_obl_people_3000" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="337" x="1136" y="63"/><ellipse cx="1219.25" cy="77" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M1222.0156,78.5313 L1224.4063,79.2813 Q1223.8594,81.2656 1222.5781,82.2344 Q1221.3125,83.2031 1219.3438,83.2031 Q1216.9219,83.2031 1215.3594,81.5469 Q1213.8125,79.8906 1213.8125,77.0156 Q1213.8125,73.9844 1215.375,72.3125 Q1216.9375,70.625 1219.5,70.625 Q1221.7344,70.625 1223.125,71.9375 Q1223.9531,72.7188 1224.375,74.1875 L1221.9375,74.7656 Q1221.7188,73.8125 1221.0313,73.2656 Q1220.3594,72.7188 1219.375,72.7188 Q1218.0156,72.7188 1217.1719,73.7031 Q1216.3438,74.6719 1216.3438,76.8438 Q1216.3438,79.1406 1217.1719,80.125 Q1218,81.1094 1219.3281,81.1094 Q1220.3125,81.1094 1221.0156,80.4844 Q1221.7188,79.8594 1222.0156,78.5313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="163" x="1236.75" y="82.5679">base_obl_people_3000</text><line style="stroke:#000000;stroke-width:1.0;" x1="1137" x2="1472" y1="91" y2="91"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="1142" y="109.0752">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94" x="1142" y="126.0898">type: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="1142" y="143.1045">gicity: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="104" x="1142" y="160.1191">okrug: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="111" x="1142" y="177.1338">district: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="106" x="1142" y="194.1484">people: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="103" x="1142" y="211.1631">okato: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="108" x="1142" y="228.1777">oktmo: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1142" y="245.1924">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="1137" x2="1472" y1="252.1318" y2="252.1318"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="325" x="1142" y="270.207">wkb_geometry: geometry(multipolygon,3857)</text></g><!--MD5=[09a851ec0f7822784b9747f65816e184]
+class buildings--><g id="elem_buildings"><rect codeLine="55" fill="#FFFFFF" height="112.0586" id="buildings" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="283" x="39" y="498.5"/><ellipse cx="145.75" cy="512.5" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M148.5156,514.0313 L150.9063,514.7813 Q150.3594,516.7656 149.0781,517.7344 Q147.8125,518.7031 145.8438,518.7031 Q143.4219,518.7031 141.8594,517.0469 Q140.3125,515.3906 140.3125,512.5156 Q140.3125,509.4844 141.875,507.8125 Q143.4375,506.125 146,506.125 Q148.2344,506.125 149.625,507.4375 Q150.4531,508.2188 150.875,509.6875 L148.4375,510.2656 Q148.2188,509.3125 147.5313,508.7656 Q146.8594,508.2188 145.875,508.2188 Q144.5156,508.2188 143.6719,509.2031 Q142.8438,510.1719 142.8438,512.3438 Q142.8438,514.6406 143.6719,515.625 Q144.5,516.6094 145.8281,516.6094 Q146.8125,516.6094 147.5156,515.9844 Q148.2188,515.3594 148.5156,514.0313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="62" x="163.25" y="518.0679">buildings</text><line style="stroke:#000000;stroke-width:1.0;" x1="40" x2="321" y1="526.5" y2="526.5"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="87" x="45" y="544.5752">city: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="90" x="45" y="561.5898">year: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="45" y="578.6045">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="40" x2="321" y1="585.5439" y2="585.5439"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="271" x="45" y="603.6191">wkb_geometry: geometry(point,3857)</text></g><!--MD5=[62d5452e56a9cf6067badf2c88f83f40]
+class mun_obr_all_bad--><g id="elem_mun_obr_all_bad"><rect codeLine="61" fill="#FFFFFF" height="333.249" id="mun_obr_all_bad" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="337" x="357" y="388"/><ellipse cx="460.75" cy="402" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M463.5156,403.5313 L465.9063,404.2813 Q465.3594,406.2656 464.0781,407.2344 Q462.8125,408.2031 460.8438,408.2031 Q458.4219,408.2031 456.8594,406.5469 Q455.3125,404.8906 455.3125,402.0156 Q455.3125,398.9844 456.875,397.3125 Q458.4375,395.625 461,395.625 Q463.2344,395.625 464.625,396.9375 Q465.4531,397.7188 465.875,399.1875 L463.4375,399.7656 Q463.2188,398.8125 462.5313,398.2656 Q461.8594,397.7188 460.875,397.7188 Q459.5156,397.7188 458.6719,398.7031 Q457.8438,399.6719 457.8438,401.8438 Q457.8438,404.1406 458.6719,405.125 Q459.5,406.1094 460.8281,406.1094 Q461.8125,406.1094 462.5156,405.4844 Q463.2188,404.8594 463.5156,403.5313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="122" x="478.25" y="407.5679">mun_obr_all_bad</text><line style="stroke:#000000;stroke-width:1.0;" x1="358" x2="693" y1="416" y2="416"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="363" y="434.0752">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94" x="363" y="451.0898">type: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="90" x="363" y="468.1045">level: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="363" y="485.1191">sub: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="363" y="502.1338">region: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="106" x="363" y="519.1484">people: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="190" x="363" y="536.1631">sum_bad: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="178" x="363" y="553.1777">percent: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="217" x="363" y="570.1924">road_density: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="157" x="363" y="587.207">road_demand: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="363" y="604.2217">id_full: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="135" x="363" y="621.2363">count_bad: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="298" x="363" y="638.251">avg_free_speed_to_limit: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="178" x="363" y="655.2656">sum_all: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="227" x="363" y="672.2803">sum_all_signal: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="363" y="689.2949">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="358" x2="693" y1="696.2344" y2="696.2344"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="325" x="363" y="714.3096">wkb_geometry: geometry(multipolygon,3857)</text></g><!--MD5=[7d1fe414ef8311ea985590ad9a4321c9]
+class mun_obr_arctic--><g id="elem_mun_obr_arctic"><rect codeLine="80" fill="#FFFFFF" height="265.1904" id="mun_obr_arctic" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="337" x="729" y="422"/><ellipse cx="838.75" cy="436" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M841.5156,437.5313 L843.9063,438.2813 Q843.3594,440.2656 842.0781,441.2344 Q840.8125,442.2031 838.8438,442.2031 Q836.4219,442.2031 834.8594,440.5469 Q833.3125,438.8906 833.3125,436.0156 Q833.3125,432.9844 834.875,431.3125 Q836.4375,429.625 839,429.625 Q841.2344,429.625 842.625,430.9375 Q843.4531,431.7188 843.875,433.1875 L841.4375,433.7656 Q841.2188,432.8125 840.5313,432.2656 Q839.8594,431.7188 838.875,431.7188 Q837.5156,431.7188 836.6719,432.7031 Q835.8438,433.6719 835.8438,435.8438 Q835.8438,438.1406 836.6719,439.125 Q837.5,440.1094 838.8281,440.1094 Q839.8125,440.1094 840.5156,439.4844 Q841.2188,438.8594 841.5156,437.5313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="110" x="856.25" y="441.5679">mun_obr_arctic</text><line style="stroke:#000000;stroke-width:1.0;" x1="730" x2="1065" y1="450" y2="450"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="735" y="468.0752">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="94" x="735" y="485.0898">type: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="99" x="735" y="502.1045">level_: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="735" y="519.1191">sub: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="735" y="536.1338">id_full: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="735" y="553.1484">region: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="111" x="735" y="570.1631">district: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="104" x="735" y="587.1777">okrug: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="106" x="735" y="604.1924">people: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="108" x="735" y="621.207">oktmo: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="103" x="735" y="638.2217">okato: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="735" y="655.2363">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="730" x2="1065" y1="662.1758" y2="662.1758"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="325" x="735" y="680.251">wkb_geometry: geometry(multipolygon,3857)</text></g><!--MD5=[f109d0a094642461414e78006a085a6d]
+class objects_education--><g id="elem_objects_education"><rect codeLine="95" fill="#FFFFFF" height="197.1318" id="objects_education" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="283" x="1101" y="456"/><ellipse cx="1174.25" cy="470" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M1177.0156,471.5313 L1179.4063,472.2813 Q1178.8594,474.2656 1177.5781,475.2344 Q1176.3125,476.2031 1174.3438,476.2031 Q1171.9219,476.2031 1170.3594,474.5469 Q1168.8125,472.8906 1168.8125,470.0156 Q1168.8125,466.9844 1170.375,465.3125 Q1171.9375,463.625 1174.5,463.625 Q1176.7344,463.625 1178.125,464.9375 Q1178.9531,465.7188 1179.375,467.1875 L1176.9375,467.7656 Q1176.7188,466.8125 1176.0313,466.2656 Q1175.3594,465.7188 1174.375,465.7188 Q1173.0156,465.7188 1172.1719,466.7031 Q1171.3438,467.6719 1171.3438,469.8438 Q1171.3438,472.1406 1172.1719,473.125 Q1173,474.1094 1174.3281,474.1094 Q1175.3125,474.1094 1176.0156,473.4844 Q1176.7188,472.8594 1177.0156,471.5313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="129" x="1191.75" y="475.5679">objects_education</text><line style="stroke:#000000;stroke-width:1.0;" x1="1102" x2="1383" y1="484" y2="484"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="1107" y="502.0752">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="87" x="1107" y="519.0898">city: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="105" x="1107" y="536.1045">street: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="106" x="1107" y="553.1191">house: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="95" x="1107" y="570.1338">post: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="134" x="1107" y="587.1484">x: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="133" x="1107" y="604.1631">y: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="1107" y="621.1777">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="1102" x2="1383" y1="628.1172" y2="628.1172"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="271" x="1107" y="646.1924">wkb_geometry: geometry(point,3857)</text></g><!--MD5=[36082cd4f6a94711b75e58d6341e1a8d]
+class objects_tourism--><g id="elem_objects_tourism"><rect codeLine="106" fill="#FFFFFF" height="197.1318" id="objects_tourism" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="283" x="39" y="789.5"/><ellipse cx="119.25" cy="803.5" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M122.0156,805.0313 L124.4063,805.7813 Q123.8594,807.7656 122.5781,808.7344 Q121.3125,809.7031 119.3438,809.7031 Q116.9219,809.7031 115.3594,808.0469 Q113.8125,806.3906 113.8125,803.5156 Q113.8125,800.4844 115.375,798.8125 Q116.9375,797.125 119.5,797.125 Q121.7344,797.125 123.125,798.4375 Q123.9531,799.2188 124.375,800.6875 L121.9375,801.2656 Q121.7188,800.3125 121.0313,799.7656 Q120.3594,799.2188 119.375,799.2188 Q118.0156,799.2188 117.1719,800.2031 Q116.3438,801.1719 116.3438,803.3438 Q116.3438,805.6406 117.1719,806.625 Q118,807.6094 119.3281,807.6094 Q120.3125,807.6094 121.0156,806.9844 Q121.7188,806.3594 122.0156,805.0313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="115" x="136.75" y="809.0679">objects_tourism</text><line style="stroke:#000000;stroke-width:1.0;" x1="40" x2="321" y1="817.5" y2="817.5"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="45" y="835.5752">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="87" x="45" y="852.5898">city: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="105" x="45" y="869.6045">street: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="106" x="45" y="886.6191">house: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="95" x="45" y="903.6338">post: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="134" x="45" y="920.6484">x: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="133" x="45" y="937.6631">y: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="45" y="954.6777">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="40" x2="321" y1="961.6172" y2="961.6172"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="271" x="45" y="979.6924">wkb_geometry: geometry(point,3857)</text></g><!--MD5=[bccdca295d440cf819c093139ebbbc3a]
+class objects_zdrav--><g id="elem_objects_zdrav"><rect codeLine="117" fill="#FFFFFF" height="214.1465" id="objects_zdrav" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="283" x="357" y="781"/><ellipse cx="444.75" cy="795" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M447.5156,796.5313 L449.9063,797.2813 Q449.3594,799.2656 448.0781,800.2344 Q446.8125,801.2031 444.8438,801.2031 Q442.4219,801.2031 440.8594,799.5469 Q439.3125,797.8906 439.3125,795.0156 Q439.3125,791.9844 440.875,790.3125 Q442.4375,788.625 445,788.625 Q447.2344,788.625 448.625,789.9375 Q449.4531,790.7188 449.875,792.1875 L447.4375,792.7656 Q447.2188,791.8125 446.5313,791.2656 Q445.8594,790.7188 444.875,790.7188 Q443.5156,790.7188 442.6719,791.7031 Q441.8438,792.6719 441.8438,794.8438 Q441.8438,797.1406 442.6719,798.125 Q443.5,799.1094 444.8281,799.1094 Q445.8125,799.1094 446.5156,798.4844 Q447.2188,797.8594 447.5156,796.5313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="100" x="462.25" y="800.5679">objects_zdrav</text><line style="stroke:#000000;stroke-width:1.0;" x1="358" x2="639" y1="809" y2="809"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="101" x="363" y="827.0752">name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="87" x="363" y="844.0898">city: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="105" x="363" y="861.1045">street: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="106" x="363" y="878.1191">house: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="95" x="363" y="895.1338">post: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="134" x="363" y="912.1484">x: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="133" x="363" y="929.1631">y: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="100" x="363" y="946.1777">cpi_id: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="363" y="963.1924">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="358" x2="639" y1="970.1318" y2="970.1318"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="271" x="363" y="988.207">wkb_geometry: geometry(point,3857)</text></g><!--MD5=[21c0fa97f606a68358a82a57c2980c64]
+class slow_roads_lines--><g id="elem_slow_roads_lines"><rect codeLine="129" fill="#FFFFFF" height="197.1318" id="slow_roads_lines" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="345" x="675" y="789.5"/><ellipse cx="783.75" cy="803.5" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M786.5156,805.0313 L788.9063,805.7813 Q788.3594,807.7656 787.0781,808.7344 Q785.8125,809.7031 783.8438,809.7031 Q781.4219,809.7031 779.8594,808.0469 Q778.3125,806.3906 778.3125,803.5156 Q778.3125,800.4844 779.875,798.8125 Q781.4375,797.125 784,797.125 Q786.2344,797.125 787.625,798.4375 Q788.4531,799.2188 788.875,800.6875 L786.4375,801.2656 Q786.2188,800.3125 785.5313,799.7656 Q784.8594,799.2188 783.875,799.2188 Q782.5156,799.2188 781.6719,800.2031 Q780.8438,801.1719 780.8438,803.3438 Q780.8438,805.6406 781.6719,806.625 Q782.5,807.6094 783.8281,807.6094 Q784.8125,807.6094 785.5156,806.9844 Q786.2188,806.3594 786.5156,805.0313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="120" x="801.25" y="809.0679">slow_roads_lines</text><line style="stroke:#000000;stroke-width:1.0;" x1="676" x2="1019" y1="817.5" y2="817.5"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="121" x="681" y="835.5752">category: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="171" x="681" y="852.5898">category_name: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="102" x="681" y="869.6045">dates: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="264" x="681" y="886.6191">free_speed_to_limit: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="104" x="681" y="903.6338">length: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="681" y="920.6484">region: varchar</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="217" x="681" y="937.6631">geom_length: double precision</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="72" x="681" y="954.6777">id: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="676" x2="1019" y1="961.6172" y2="961.6172"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="333" x="681" y="979.6924">wkb_geometry: geometry(multilinestring,3857)</text></g><!--MD5=[a69b7e4ec4d6cb336e1e88f2f92c7bd0]
+class spatial_ref_sys--><g id="elem_spatial_ref_sys"><rect codeLine="140" fill="#FFFFFF" height="129.0732" id="spatial_ref_sys" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="193" x="1055" y="823.5"/><ellipse cx="1094.75" cy="837.5" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M1097.5156,839.0313 L1099.9063,839.7813 Q1099.3594,841.7656 1098.0781,842.7344 Q1096.8125,843.7031 1094.8438,843.7031 Q1092.4219,843.7031 1090.8594,842.0469 Q1089.3125,840.3906 1089.3125,837.5156 Q1089.3125,834.4844 1090.875,832.8125 Q1092.4375,831.125 1095,831.125 Q1097.2344,831.125 1098.625,832.4375 Q1099.4531,833.2188 1099.875,834.6875 L1097.4375,835.2656 Q1097.2188,834.3125 1096.5313,833.7656 Q1095.8594,833.2188 1094.875,833.2188 Q1093.5156,833.2188 1092.6719,834.2031 Q1091.8438,835.1719 1091.8438,837.3438 Q1091.8438,839.6406 1092.6719,840.625 Q1093.5,841.6094 1094.8281,841.6094 Q1095.8125,841.6094 1096.5156,840.9844 Q1097.2188,840.3594 1097.5156,839.0313 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="106" x="1112.25" y="843.0679">spatial_ref_sys</text><line style="stroke:#000000;stroke-width:1.0;" x1="1056" x2="1247" y1="851.5" y2="851.5"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="127" x="1061" y="869.5752">auth_srid: integer</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1061" y="886.5898">srid: integer</text><line style="stroke:#000000;stroke-width:1.0;" x1="1056" x2="1247" y1="893.5293" y2="893.5293"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="181" x="1061" y="911.6045">auth_name: varchar(256)</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="154" x="1061" y="928.6191">srtext: varchar(2048)</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="178" x="1061" y="945.6338">proj4text: varchar(2048)</text></g><!--MD5=[f422023d4887929e83efd921323a404e]
+@startuml database
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class arhangelskaya_oblast {
+   region: varchar
+   id_full: integer
+   level: integer
+   type: varchar
+   name: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   ogc_fid: integer
+}
+class auto_foot_graph_arh_obl {
+   objectid: integer
+   fclass: varchar
+   name: varchar
+   ref: varchar
+   oneway: varchar
+   maxspeed: integer
+   layer: double precision
+   bridge: varchar
+   tunnel: varchar
+   auto: varchar
+   foot: varchar
+   meters: double precision
+   minutes: double precision
+   minutes_foot: double precision
+   wkb_geometry: geometry(multilinestring,3857)
+   ogc_fid: integer
+}
+class base_obl_people {
+   name: varchar
+   type: varchar
+   gicity: varchar
+   okrug: varchar
+   district: varchar
+   okato: varchar
+   oktmo: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class base_obl_people_3000 {
+   name: varchar
+   type: varchar
+   gicity: varchar
+   okrug: varchar
+   district: varchar
+   people: integer
+   okato: varchar
+   oktmo: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class buildings {
+   city: varchar
+   year: integer
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class mun_obr_all_bad {
+   name: varchar
+   type: varchar
+   level: integer
+   sub: integer
+   region: varchar
+   people: integer
+   sum_bad: double precision
+   percent: double precision
+   road_density: double precision
+   road_demand: integer
+   id_full: integer
+   count_bad: integer
+   avg_free_speed_to_limit: double precision
+   sum_all: double precision
+   sum_all_signal: double precision
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class mun_obr_arctic {
+   name: varchar
+   type: varchar
+   level_: integer
+   sub: integer
+   id_full: integer
+   region: varchar
+   district: varchar
+   okrug: varchar
+   people: integer
+   oktmo: varchar
+   okato: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class objects_education {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class objects_tourism {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class objects_zdrav {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   cpi_id: integer
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class slow_roads_lines {
+   category: integer
+   category_name: varchar
+   dates: varchar
+   free_speed_to_limit: double precision
+   length: integer
+   region: varchar
+   geom_length: double precision
+   wkb_geometry: geometry(multilinestring,3857)
+   id: integer
+}
+class spatial_ref_sys {
+   auth_name: varchar(256)
+   auth_srid: integer
+   srtext: varchar(2048)
+   proj4text: varchar(2048)
+   srid: integer
+}
+@enduml
+
+@startuml database
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+top to bottom direction
+skinparam linetype ortho
+
+class arhangelskaya_oblast {
+   region: varchar
+   id_full: integer
+   level: integer
+   type: varchar
+   name: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   ogc_fid: integer
+}
+class auto_foot_graph_arh_obl {
+   objectid: integer
+   fclass: varchar
+   name: varchar
+   ref: varchar
+   oneway: varchar
+   maxspeed: integer
+   layer: double precision
+   bridge: varchar
+   tunnel: varchar
+   auto: varchar
+   foot: varchar
+   meters: double precision
+   minutes: double precision
+   minutes_foot: double precision
+   wkb_geometry: geometry(multilinestring,3857)
+   ogc_fid: integer
+}
+class base_obl_people {
+   name: varchar
+   type: varchar
+   gicity: varchar
+   okrug: varchar
+   district: varchar
+   okato: varchar
+   oktmo: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class base_obl_people_3000 {
+   name: varchar
+   type: varchar
+   gicity: varchar
+   okrug: varchar
+   district: varchar
+   people: integer
+   okato: varchar
+   oktmo: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class buildings {
+   city: varchar
+   year: integer
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class mun_obr_all_bad {
+   name: varchar
+   type: varchar
+   level: integer
+   sub: integer
+   region: varchar
+   people: integer
+   sum_bad: double precision
+   percent: double precision
+   road_density: double precision
+   road_demand: integer
+   id_full: integer
+   count_bad: integer
+   avg_free_speed_to_limit: double precision
+   sum_all: double precision
+   sum_all_signal: double precision
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class mun_obr_arctic {
+   name: varchar
+   type: varchar
+   level_: integer
+   sub: integer
+   id_full: integer
+   region: varchar
+   district: varchar
+   okrug: varchar
+   people: integer
+   oktmo: varchar
+   okato: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class objects_education {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class objects_tourism {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class objects_zdrav {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   cpi_id: integer
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class slow_roads_lines {
+   category: integer
+   category_name: varchar
+   dates: varchar
+   free_speed_to_limit: double precision
+   length: integer
+   region: varchar
+   geom_length: double precision
+   wkb_geometry: geometry(multilinestring,3857)
+   id: integer
+}
+class spatial_ref_sys {
+   auth_name: varchar(256)
+   auth_srid: integer
+   srtext: varchar(2048)
+   proj4text: varchar(2048)
+   srid: integer
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

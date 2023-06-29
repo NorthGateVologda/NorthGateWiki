@@ -1,0 +1,148 @@
+@startuml database
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class arhangelskaya_oblast {
+   region: varchar
+   id_full: integer
+   level: integer
+   type: varchar
+   name: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   ogc_fid: integer
+}
+class auto_foot_graph_arh_obl {
+   objectid: integer
+   fclass: varchar
+   name: varchar
+   ref: varchar
+   oneway: varchar
+   maxspeed: integer
+   layer: double precision
+   bridge: varchar
+   tunnel: varchar
+   auto: varchar
+   foot: varchar
+   meters: double precision
+   minutes: double precision
+   minutes_foot: double precision
+   wkb_geometry: geometry(multilinestring,3857)
+   ogc_fid: integer
+}
+class base_obl_people {
+   name: varchar
+   type: varchar
+   gicity: varchar
+   okrug: varchar
+   district: varchar
+   okato: varchar
+   oktmo: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class base_obl_people_3000 {
+   name: varchar
+   type: varchar
+   gicity: varchar
+   okrug: varchar
+   district: varchar
+   people: integer
+   okato: varchar
+   oktmo: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class buildings {
+   city: varchar
+   year: integer
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class mun_obr_all_bad {
+   name: varchar
+   type: varchar
+   level: integer
+   sub: integer
+   region: varchar
+   people: integer
+   sum_bad: double precision
+   percent: double precision
+   road_density: double precision
+   road_demand: integer
+   id_full: integer
+   count_bad: integer
+   avg_free_speed_to_limit: double precision
+   sum_all: double precision
+   sum_all_signal: double precision
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class mun_obr_arctic {
+   name: varchar
+   type: varchar
+   level_: integer
+   sub: integer
+   id_full: integer
+   region: varchar
+   district: varchar
+   okrug: varchar
+   people: integer
+   oktmo: varchar
+   okato: varchar
+   wkb_geometry: geometry(multipolygon,3857)
+   id: integer
+}
+class objects_education {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class objects_tourism {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class objects_zdrav {
+   name: varchar
+   city: varchar
+   street: varchar
+   house: varchar
+   post: varchar
+   x: double precision
+   y: double precision
+   cpi_id: integer
+   wkb_geometry: geometry(point,3857)
+   id: integer
+}
+class slow_roads_lines {
+   category: integer
+   category_name: varchar
+   dates: varchar
+   free_speed_to_limit: double precision
+   length: integer
+   region: varchar
+   geom_length: double precision
+   wkb_geometry: geometry(multilinestring,3857)
+   id: integer
+}
+class spatial_ref_sys {
+   auth_name: varchar(256)
+   auth_srid: integer
+   srtext: varchar(2048)
+   proj4text: varchar(2048)
+   srid: integer
+}
+@enduml
