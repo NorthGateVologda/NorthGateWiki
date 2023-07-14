@@ -1,0 +1,39 @@
+@startuml frontend
+
+title Общее поведение frontend-а
+
+state autorization : Авторизация
+state get_states : Выбор области\nили республики
+state get_areas : Выбор\nрайона
+state get_cities : Выбор\nгорода
+state put_cities : Сохранение\nмултиполигона
+state delete_cities : Удаление\nмултиполигона
+state get_houses : Выборка объектов\nжилья
+state input_ceofficient : Ввод коэффициента\nплотности населения
+state put_houses : Сохранение объектов\nжилья c населением
+state delete_houses : Удаление объектов\nжилья c населением
+state get_population : Выборка сетки с\nплотностью населения
+state put_population : Сохранение сетки с\nплотностью населения
+state delete_population : Удаление сетки с\nплотностью населения
+state logout : Закрытие\nсессии
+
+[*] -> autorization
+autorization -> get_states
+get_states -> get_areas
+get_areas -> get_cities
+get_cities -down-> put_cities
+put_cities -> delete_cities
+delete_cities -up-> get_cities
+put_cities -down-> get_houses
+get_houses -down-> input_ceofficient
+input_ceofficient -down-> put_houses
+put_houses -> delete_houses
+delete_houses -up-> get_houses
+put_houses -down-> get_population
+get_population -down-> put_population
+put_population -> delete_population
+delete_population -up-> get_population
+put_population -left-> logout
+logout -left-> [*]
+
+@enduml
