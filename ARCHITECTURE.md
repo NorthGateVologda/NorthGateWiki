@@ -61,3 +61,7 @@ geojson в csv и просто напрямую не дать DL доступ к
 Предполагаемая архитектра.
 
 ![Arch](img/arch.jpg)
+
+На frontend-е предлагается такая диаграмма состояний:
+
+![Frontend](out/frontend/frontend.svg)
