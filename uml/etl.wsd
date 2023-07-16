@@ -1,0 +1,81 @@
+@startuml etl
+
+allowmixing
+
+title Принцип обогащения данных в рамках ETL
+
+database Postgress {
+    class buildings << (T,#ADD1B2) >> {
+        int id
+        float area
+        date build_date
+        boolean is_emergency
+        point point
+    }
+    class roads << (T,#ADD1B2) >> {
+        int id
+        str name
+        road_t type
+        array points
+    }
+}
+note left of Postgress
+В базе хранятся
+упорядоченные данные
+длянашего Backend-а
+end note
+
+package Файлы {
+    namespace GoogleDrive {
+        file buildings
+        file roads
+    }
+    namespace Росреестр {
+        file Архангельск
+        file Калевала_Ухта
+    }
+}
+note top of Файлы
+Данные От организаторов
+и из баз данных типа
+аис.фрт.рф
+end note
+
+package "Внешние системы" as external {
+    () YandexGeocode
+    () Overpass
+}
+
+node Backend [
+    Backend нашей системы
+    --
+    GET overpass (request) : response
+    GET yandex (request) : response
+]
+note right of Backend
+Backend экспортирует
+фбстракцию внешних
+сервисов для Nifi
+через определённые
+функции внутреннего
+API
+end note
+
+node ApacheNifi [
+    ApacheNifi
+    --
+    Система ETL
+    интегрируется
+    со многими
+    источниками
+    в том числе
+    файловой
+    системой
+]
+
+ApacheNifi --> Postgress : Nifi раскидывает\nданные по всем таблицам
+Файлы --> ApacheNifi : Nifi читает файлы\nиз файловой системы
+ApacheNifi -right-> Backend : Nifi обращается\nк внешинм API\nчерез наш Backend
+Backend --> external
+
+@enduml

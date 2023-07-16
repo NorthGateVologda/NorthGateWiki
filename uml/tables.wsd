@@ -1,0 +1,70 @@
+@startuml tables
+
+title Общие типы таблиц в базе
+
+database Postgress {
+    namespace GeoJSON {
+        class buildings << (T,#ADD1B2) >> {
+            int id
+            any field_1
+            any field_2
+            geometry geometry
+        }
+        class roads << (T,#ADD1B2) >> {
+            int id
+            any field_1
+            any field_2
+            geometry geometry
+        }
+    }
+    note right of GeoJSON
+    Сырые данные
+    в формате GeoJSON
+    от организаторов
+    со всеми полями
+    end note
+    namespace DataLens {
+        class buildings << (T,#ADD1B2) >> {
+            int id
+            any field_1
+            point point
+        }
+        class roads << (T,#ADD1B2) >> {
+            int id
+            any field_2
+            array points
+        }
+    }
+    note right of DataLens
+    Данные в CSV формате
+    с полями необходимыми
+    в Yandex DataLens
+    end note
+    namespace API {
+        class buildings << (T,#ADD1B2) >> {
+            int id
+            float area
+            date build_date
+            boolean is_emergency
+            point point
+        }
+        class roads << (T,#ADD1B2) >> {
+            int id
+            str name
+            road_t type
+            array points
+        }
+    }
+    note right of API
+    Обогащённые и обработанные
+    данные в формате GeoJSON
+    с полями необходимыми
+    для API в Backend-е
+    end note
+    GeoJSON.buildings .down.> DataLens.buildings
+    GeoJSON.roads .down.> DataLens.roads
+    GeoJSON.buildings .up.> API.buildings
+    GeoJSON.roads .up.> API.roads
+}
+
+@enduml
