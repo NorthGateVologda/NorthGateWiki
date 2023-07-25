@@ -78,3 +78,8 @@ git config --local user.email "ya.olgapshenichnikova@yandex.ru"
 6. Ответственные люди сольют изменения
 
 [1]: https://git-scm.com/book/ru/v2/Введение-Первоначальная-настройка-Git
+
+### Загрузка GeoJSON файла в базу данных
+Для того, чтобы загрузить GeoJSON файл в базу данных, необходимо: 
+1. Зайти в процесс Docker - контейнера базы данных: `sudo docker exec -it <id> bash`
+2. Написать следующую команду: `ogr2ogr -progress -f "PostgreSQL" PG:"user=<user> dbname=northgate password=<password>" path-to-file.geojson`, где `password` - ваш пароль, `user` - ваш логин, `path-to-file` - путь к GeoJSON файлу
