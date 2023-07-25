@@ -1,13 +1,23 @@
 ## Документация по базе данных корпорации *NorthGate*
 
-Здесь содержится полное описание структуры базы данных *Postgres*
+Общая информация о взаимодействии с базой данных.
 
-## Генерация UML - диаграммы в Visual Studio Code
+## Полезные команды
 
-UML в Visual Studio Code создается с помощью плагина `PlantUML`, после этого нужно создать файл с расширением `.wsd`, в ней можно писать UML код, для генерации `SVG` необходимо в `UML файле`  нажать правой кнопкой мыши и выбрать `Export Current Diagram`
+Подключение из терминала с суперпользователем:
 
-Для унификации конфигурация пути для сохранения `svg` прописана в файле `.code-workspace`.
+```sh
+NIFI_CONT=$(sudo docker ps --filter "name=db_postgres" -q)
+sudo docker exec -it $NIFI_CONT /bin/bash
+su - postgres
+psql -d northgate
+```
 
-## UML - диаграмма базы данных
+Закрытие сессий:
 
-![DatabaseUml](out/database-uml/database.svg)
+```sql
+SELECT pg_terminate_backend(pid)
+FROM pg_stat_activity
+WHERE pid <> pg_backend_pid()
+AND datname = 'northgate';
+```
