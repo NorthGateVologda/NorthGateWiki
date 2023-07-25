@@ -12,6 +12,7 @@
 - [Backend](#backend)
 - [Frontend](#frontend)
 - [База данных](#база-данных)
+  - [Общие таблицы](#общие-таблицы)
 - [ETL](#etl)
 - [DataLens](#datalens)
 
@@ -155,6 +156,10 @@
 3. Таблицы с данными в `CSV` формате для `Yandex DataLens`
 
 ![Tables](out/tables/tables.svg)
+
+### Общие таблицы
+
+![DatabaseUml](out/database-uml/database.svg)
 
 ## ETL
 
