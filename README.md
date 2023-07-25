@@ -92,17 +92,3 @@ UML в Visual Studio Code создается с помощью плагина `P
 
 [1]: https://git-scm.com/book/ru/v2/Введение-Первоначальная-настройка-Git
 
-### Загрузка GeoJSON файла в базу данных
-
-Для загрузки GeoJSON файла в базу данных выполните следующие шаги:
-
-1. Зайдите в процесс Docker-контейнера базы данных:  
-   `sudo docker exec -it <id> bash`
-
-2. Введите следующую команду:  
-   `ogr2ogr -progress -f "PostgreSQL" PG:"user=<user> dbname=northgate password=<password>" path-to-file.geojson`
-
-   Где:
-   - `<password>` - ваш пароль
-   - `<user>` - ваш логин
-   - `path-to-file` - путь к GeoJSON файлу
