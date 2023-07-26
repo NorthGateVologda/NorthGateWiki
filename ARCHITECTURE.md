@@ -42,46 +42,7 @@
 `Backend` системы будет экспортировать аппликативный интерфейс для
 `frontend`-а, а так же иных подсистем, в том числе `ETL`.
 
-На даннном этапе мы наметили функции `API` представленные ниже.
-
-Структуры данных используемые в функциях `API`:
-
-* `touple<str> p_auth` ; пользователь и пароль
-* `str p_session_id` ; идентификатор сессии
-* `map<int, string> p_states` ; список областей и республик
-* `int p_state_id` ; идентификатор области или республики
-* `map<int, string> p_areas` ; список районов
-* `int p_area_id` ; идентификатор района
-* `map<int, string> p_cities` ; список населённых пунктов
-* `int p_city_id` ; идентификатор населённого пункта
-* `geojson p_geo_city` ; мултиполигон населённого пункта
-* `int p_geo_city_id` ; идентификатор слоя населённого пункта
-* `geojson p_geo_houses` ; набор точек домов
-* `int p_geo_houses_id` ; идентификатор слоя жилых построек
-* `geojson p_geo_population` ; набор шестиугольников с плотностью населения
-* `int p_geo_population_id` ; идентификатор слоя плотности населения
-
-Далее собствено говоря функции `API`:
-
-* `GET login (p_auth) -> p_session_id`
-* `GET logout (p_session_id)`
-* `GET states -> p_states`
-* `GET areas (p_state_id) -> p_areas`
-* `GET cities (p_area_id) -> p_cities`
-* `GET city_layer (p_city_id) -> p_geo_city`
-* `PUT city_layer (p_geo_city) -> p_geo_city_id` ; сохранение слоя
-* `DELETE city_layer (p_geo_city_id) -> void` ; удаление слоя
-* `GET houses_layer(p_geo_city_id) -> p_geo_houses` ; в рамках населённого п.
-* `PUT houses_layer (p_geo_houses) -> p_geo_houses_id`
-* `DELETE houses_layer (p_geo_houses_id) -> void`
-* `GET population_layer (p_geo_houses_id) -> p_geo_population`
-* `PUT population_layer (p_geo_population) -> p_geo_population_id`
-* `DELETE population_layer (p_geo_population_id) -> void`
-
-> TODO: актуализировать `API` по финальному варианту нынешней реализации
-
-Далее будет набор подобных функций для парков, а главное функция расчёта
-местоположения объектов инфраструктуры на карте.
+На даннном этапе мы наметили функции `API` представленные в репозитории [Backend](https://github.com/NorthGateVologda/NorthGateBackend)
 
 Небольшие пояснения.
 
