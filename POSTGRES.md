@@ -8,6 +8,7 @@
 - [Содержание](#содержание)
 - [Загрузка geojson](#загрузка-geojson)
 - [Полезные команды](#полезные-команды)
+- [Загрузка CSV](#загрузка-csv)
 
 ## Загрузка geojson
 
@@ -77,3 +78,37 @@ FROM pg_stat_activity
 WHERE pid <> pg_backend_pid()
 AND datname = 'northgate';
 ```
+
+## Загрузка CSV
+
+Загрузку данных в формате `CSV` можно выполнить следющим образом.
+
+Выбираем таблицу, правой клавишей: `Import/Export`:
+
+![SelectTable](img/pg_select_table.png)
+
+Переходим в хранилище файлов, старые файлы можно удалить:
+
+![SelectUpload](img/pg_select_upload.png)
+
+Загружаем файл:
+
+![UploadFile](img/pg_upload_file.png)
+
+Перетаскиваем файл:
+
+![SelectFile](img/pg_select_file.png)
+
+Выходим из окна:
+
+![FinishUpload](img/pg_upload_finish.png)
+
+Выбираем загруженный файл:
+
+![SourceSelect](img/pg_source_select.png)
+
+Удаляем лишние колонки, которых нет в `CSV`-шке:
+
+![ImportConfig](img/pg_import_config.png)
+
+Перед импортом таблицу надо очистить командой `TRUNCATE`.
